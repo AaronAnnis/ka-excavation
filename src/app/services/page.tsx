@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CTA } from "@/components/sections/CTA";
@@ -64,11 +65,17 @@ export default function ServicesPage() {
                   </ul>
                 </div>
                 <div
-                  className={`flex h-72 items-center justify-center rounded-md border border-border bg-bg-alt ${
+                  className={`relative h-72 overflow-hidden rounded-md ${
                     i % 2 === 1 ? "md:order-1" : ""
                   }`}
                 >
-                  <p className="text-sm text-text-light">Photo coming soon</p>
+                  <Image
+                    src={service.image}
+                    alt={service.title}
+                    fill
+                    className="object-cover"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                  />
                 </div>
               </div>
             </div>

@@ -4,6 +4,7 @@ export interface Service {
   tagline: string;
   description: string;
   features: string[];
+  image: string;
 }
 
 export const services: Service[] = [
@@ -20,6 +21,7 @@ export const services: Service[] = [
       "Driveway installation",
       "Demolition & removal",
     ],
+    image: "/images/services/excavation.jpg",
   },
   {
     slug: "lawn-care",
@@ -34,6 +36,7 @@ export const services: Service[] = [
       "Lawn renovation",
       "Property maintenance",
     ],
+    image: "/images/services/lawn-care.jpg",
   },
   {
     slug: "hardscaping",
@@ -48,6 +51,7 @@ export const services: Service[] = [
       "Garden bed construction",
       "Stone & boulder placement",
     ],
+    image: "/images/services/hardscaping.jpg",
   },
   {
     slug: "wastewater",
@@ -62,5 +66,6 @@ export const services: Service[] = [
       "System inspections",
       "Permit coordination",
     ],
+    image: "/images/services/wastewater.jpg",
   },
 ];
