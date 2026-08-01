@@ -38,10 +38,10 @@ export function Header() {
             </Link>
           ))}
           <a
-            href="tel:2076916208"
+            href="tel:2072557707"
             className="rounded-md border border-text-dark bg-text-dark px-5 py-2 text-sm font-medium text-text-white transition-colors hover:bg-transparent hover:text-text-dark"
           >
-            (207) 691-6208
+            (207) 255-7707
           </a>
         </nav>
 
@@ -88,10 +88,10 @@ export function Header() {
             </Link>
           ))}
           <a
-            href="tel:2076916208"
+            href="tel:2072557707"
             className="mt-3 block rounded-md border border-text-dark bg-text-dark px-5 py-2 text-center text-sm font-medium text-text-white"
           >
-            (207) 691-6208
+            (207) 255-7707
           </a>
         </div>
       )}

@@ -26,10 +26,10 @@ export function Hero() {
                 Get a Free Quote
               </Link>
               <a
-                href="tel:2076916208"
+                href="tel:2072557707"
                 className="rounded-md border border-border px-7 py-3 text-center text-sm font-medium text-text-dark transition-colors hover:border-text-dark"
               >
-                (207) 691-6208
+                (207) 255-7707
               </a>
             </div>
           </div>

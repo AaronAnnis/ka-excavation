@@ -49,8 +49,8 @@ export function Footer() {
             </h4>
             <ul className="mt-4 space-y-2.5 text-sm">
               <li>
-                <a href="tel:2076916208" className="text-gray-400 transition-colors hover:text-text-white">
-                  (207) 691-6208
+                <a href="tel:2072557707" className="text-gray-400 transition-colors hover:text-text-white">
+                  (207) 255-7707
                 </a>
               </li>
               <li>

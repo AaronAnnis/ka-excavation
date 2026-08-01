@@ -19,10 +19,10 @@ export function CTA() {
             Request a Quote
           </Link>
           <a
-            href="tel:2076916208"
+            href="tel:2072557707"
             className="text-sm font-medium text-text-light transition-colors hover:text-text-white"
           >
-            Or call (207) 691-6208
+            Or call (207) 255-7707
           </a>
         </div>
       </div>

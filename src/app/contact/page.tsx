@@ -49,10 +49,10 @@ export default function ContactPage() {
                       Phone
                     </h3>
                     <a
-                      href="tel:2076916208"
+                      href="tel:2072557707"
                       className="mt-1.5 block text-lg text-text-dark hover:text-accent"
                     >
-                      (207) 691-6208
+                      (207) 255-7707
                     </a>
                   </div>
                   <div>
